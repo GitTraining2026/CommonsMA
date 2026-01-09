@@ -39,6 +39,7 @@ define({
   // [Trixon] Invoke service to refresh account balance
   refreshAccountBalance: function () {
     kony.store.setItem("forApolloAccountBalanceRefresh", true);
+    kony.store.setItem("commonMA", true);
     // navManager.setCustomInfo("forApolloAccountBalanceRefresh", true);
     homeMod.presentationController.showDashboard();
   },
