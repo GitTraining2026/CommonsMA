@@ -1,0 +1,27 @@
+{
+    "AS_Form_ce00262a1c8f4d0e98c2611d1055ddaf": {
+        "id": "AS_Form_ce00262a1c8f4d0e98c2611d1055ddaf",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMFAValidation",
+            "type": "forms",
+            "platform": null,
+            "KUID": "d71dd090baca4ed0806da80aaf20ef62"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ab334f4d3b4a462ba2b1cc7df91a24ce",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "init",
+            "display": "init",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

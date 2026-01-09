@@ -1,0 +1,67 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "36%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s3ab10e73bc24d3687ec37d64d30f97c",
+    "_text_": "2",
+    "_top_": {
+        "type": "string",
+        "value": "2%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "accessibilityconfig": {
+        "a11yLabel": "2",
+        "a11yLabeli18n": "kony.mb.CM.two"
+    },
+    "android": {
+        "psp": {
+            "pressedSkin": "s588aab0c446456cbb2fb4621e70e907"
+        }
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "s588aab0c446456cbb2fb4621e70e907",
+    "id": "btnTwo",
+    "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
+    "isvisible": true,
+    "kuid": "u4085f481049438ba434e41f10ab1ed5",
+    "name": "kony.ui.Button",
+    "parent": "flxDialPad",
+    "pf": "userwidgetmodel",
+    "wType": "Button",
+    "zindex": 1
+}

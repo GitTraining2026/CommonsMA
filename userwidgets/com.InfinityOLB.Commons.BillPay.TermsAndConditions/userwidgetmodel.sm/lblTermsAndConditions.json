@@ -1,0 +1,67 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sffbc44a10fa4aa8bf25ca668c19c580",
+    "_text_": "Terms and Conditions: Lorem ipsum dolor sit amet, consectetur adipising elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.Proin sodales pulvinar tempor. Cum sociis antoque penatibus et magnis dis parturient montes, Nam fermentum, nulla luctus pharetra vulputate, fellis tellus mollis orci, sed rhoncus sapien nunc eget. ",
+    "_width_": {
+        "type": "string",
+        "value": "95.60%"
+    },
+    "_wrapping_": 2,
+    "accessibilityconfig": {},
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "lblTermsAndConditions",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isvisible": true,
+    "kuid": "e89f6d70ff194996a07d3b608f705514",
+    "name": "kony.ui.Label",
+    "paddinginpixel": false,
+    "parent": "TermsAndConditions",
+    "pf": "userwidgetmodel",
+    "tooltip": "Terms & Conditions",
+    "wType": "Label",
+    "zindex": 1
+}

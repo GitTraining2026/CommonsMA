@@ -1,0 +1,68 @@
+{
+    "classname": "RecentBeneficiaries",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "b9dad39342874f6cb668133cb6e0af34",
+                    "paramList": [],
+                    "propertyKey": "setRecentBeneficiaries",
+                    "pw": {
+                        "displayName": "setRecentBeneficiaries",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e435b83ae8aa40e4b1cbe003637f181f",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "g474bcc457c74ee38e48553f1388d2f9",
+                    "paramList": [],
+                    "propertyKey": "bookmarkORdeleteBeneficiary",
+                    "pw": {
+                        "displayName": "bookmarkORdeleteBeneficiary",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e435b83ae8aa40e4b1cbe003637f181f",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "b9e2a8bfa3a9487d9ce2ff08101e17ec",
+                    "paramList": [],
+                    "propertyKey": "transactFromRecent",
+                    "pw": {
+                        "displayName": "transactFromRecent",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e435b83ae8aa40e4b1cbe003637f181f",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.abyssinia",
+    "version": "1.0.0"
+}

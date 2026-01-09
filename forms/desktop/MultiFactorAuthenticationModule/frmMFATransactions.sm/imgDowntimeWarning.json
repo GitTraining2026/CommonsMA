@@ -1,0 +1,58 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s78a5f26c9f14cec9ebed1bb46098f80",
+    "_src_": "error_yellow.png",
+    "_width_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "accessibilityconfig": {
+        "a11yARIA": {
+            "tabindex": -1
+        },
+        "a11yHidden": true,
+        "a11yValue": ""
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "47%"
+    },
+    "containerweight": 100,
+    "id": "imgDowntimeWarning",
+    "imagescalemode": 1,
+    "imagewhiledownloading": "img_transparent.png",
+    "info": null,
+    "invokedProperty": "src",
+    "isvisible": true,
+    "kuid": "h5e74074a9bf41e69e3f8a050e9a81a9",
+    "name": "kony.ui.Image2",
+    "parent": "flxDowntimeWarning",
+    "pf": "frmMFATransactions",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

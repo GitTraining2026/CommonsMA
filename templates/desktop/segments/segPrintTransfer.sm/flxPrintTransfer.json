@@ -1,0 +1,52 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "seb0b7d705ef464e97bd21c95ca2ad68",
+    "allboxes": [],
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "children": [
+        "lblKey",
+        "lblValue"
+    ],
+    "clipbounds": true,
+    "containerId": true,
+    "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "desktop",
+            "name": "flxPrintTransferController"
+        }
+    },
+    "enablescrolling": true,
+    "id": "flxPrintTransfer",
+    "info": null,
+    "isTemplate": true,
+    "isvisible": true,
+    "kuid": "ib90020ac0ce48dbad95f60ec48c8a43",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "segPrintTransfer",
+    "pf": "segPrintTransfer",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

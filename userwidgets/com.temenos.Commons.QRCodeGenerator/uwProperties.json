@@ -1,0 +1,203 @@
+{
+    "classname": "QRCodeGenerator",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "b6425d0af0954226a76b9c8a43abbb66",
+                    "paramList": [],
+                    "propertyKey": "setContext",
+                    "pw": {
+                        "displayName": "setContext",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u42fc1735f22487a9fc742ae8aa9fe83",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "a99b1d6ecbea4adb943b002f270969bf",
+                    "paramList": [],
+                    "propertyKey": "generateQRCode",
+                    "pw": {
+                        "displayName": "generateQRCode",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u42fc1735f22487a9fc742ae8aa9fe83",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "Properties",
+                    "group": "General",
+                    "kuid": "aa35f775debb4fe8a3b0a81208ebfe93",
+                    "originalPropertyKey": "renderMode",
+                    "propertyIndex": 1,
+                    "propertyKey": "renderMode",
+                    "pw": {
+                        "dependencyConditions": {
+                            "conditions": [
+                                {
+                                    "hideProps": [],
+                                    "value": "Properties"
+                                },
+                                {
+                                    "hideProps": [],
+                                    "value": "Context"
+                                }
+                            ],
+                            "properties": []
+                        },
+                        "displayName": "Render Mode",
+                        "uiRepresentation": "Label-Combobox"
+                    },
+                    "srcWgtKUID": "u42fc1735f22487a9fc742ae8aa9fe83",
+                    "type": "list selector",
+                    "value": [
+                        "Properties",
+                        "Context"
+                    ]
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "QRCode",
+                    "group": "General",
+                    "kuid": "ae36ee25c04848409ce1a7b1353e3e42",
+                    "originalPropertyKey": "codeText",
+                    "propertyIndex": 2,
+                    "propertyKey": "codeText",
+                    "pw": {
+                        "dependencyConditions": {
+                            "conditions": [],
+                            "properties": []
+                        },
+                        "displayName": "Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "u42fc1735f22487a9fc742ae8aa9fe83",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": 125,
+                    "group": "General",
+                    "kuid": "d56380e716e449158bb7e986cfe9a3ae",
+                    "originalPropertyKey": "codeWidth",
+                    "propertyIndex": 3,
+                    "propertyKey": "codeWidth",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Width",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "u42fc1735f22487a9fc742ae8aa9fe83",
+                    "type": "integer",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": 125,
+                    "group": "General",
+                    "kuid": "e7c36f79f1bb41fda88310f6cc884f0f",
+                    "originalPropertyKey": "codeHeight",
+                    "propertyIndex": 4,
+                    "propertyKey": "codeHeight",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Height",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "u42fc1735f22487a9fc742ae8aa9fe83",
+                    "type": "integer",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "000000",
+                    "group": "General",
+                    "kuid": "e661034d449f49b9b08eb8fcdba612a2",
+                    "originalPropertyKey": "colorDark",
+                    "propertyIndex": 5,
+                    "propertyKey": "colorDark",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Dark Color",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "u42fc1735f22487a9fc742ae8aa9fe83",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "FFFFFF",
+                    "group": "General",
+                    "kuid": "cf05208baa73496abdedfae5649303d0",
+                    "originalPropertyKey": "colorLight",
+                    "propertyIndex": 6,
+                    "propertyKey": "colorLight",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Light Color",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "u42fc1735f22487a9fc742ae8aa9fe83",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "0",
+                    "group": "General",
+                    "kuid": "d3efb5e04a06421197eccd5cddded5f0",
+                    "originalPropertyKey": "correctLevel",
+                    "propertyIndex": 7,
+                    "propertyKey": "correctLevel",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Error Correction Lavel",
+                        "uiRepresentation": "Label-Combobox"
+                    },
+                    "srcWgtKUID": "u42fc1735f22487a9fc742ae8aa9fe83",
+                    "type": "list selector",
+                    "value": [
+                        "0",
+                        "1",
+                        "2",
+                        "3"
+                    ]
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.temenos.Commons",
+    "version": "1.0.0"
+}

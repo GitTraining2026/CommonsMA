@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "7%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s68a947e8b6d4d02828eff937d3cf4e7",
+    "_text_": "New Transfer",
+    "_top_": {
+        "type": "string",
+        "value": "1%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "92%"
+    },
+    "activeNativeBorderCornerRadiusControl": "centerControl",
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s96fde78099142b4b618d595d3685a4c",
+    "id": "btnNewTransfer",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e1abc252c239492193c5946626c9c4bc",
+    "name": "kony.ui.Button",
+    "parent": "flxMainContainer",
+    "pf": "frmTransferSuccess",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "texti18n": "cs.apollo.NewTransfer",
+    "wType": "Button",
+    "zindex": 3
+}

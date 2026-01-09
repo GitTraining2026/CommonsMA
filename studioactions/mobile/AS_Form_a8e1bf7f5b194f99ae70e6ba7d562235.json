@@ -1,0 +1,26 @@
+{
+    "AS_Form_a8e1bf7f5b194f99ae70e6ba7d562235": {
+        "id": "AS_Form_a8e1bf7f5b194f99ae70e6ba7d562235",
+        "type": "ACTION_SEQUENCE",
+        "params": [
+            {
+                "datatype": "collection",
+                "name": "eventobject"
+            }
+        ],
+        "contextObj": {
+            "name": "frmTransferSuccess",
+            "type": "forms",
+            "platform": null,
+            "KUID": "a5fa55f9fcc54cfda77c7c70ac19a283"
+        },
+        "language": "js",
+        "actions": [
+            {
+                "id": "ADD_SNIPPET_ide_preShow_e6d56b25bd2c4604a667a2e871946413",
+                "type": "ADD_SNIPPET",
+                "codeSnippet": "this.formPreshow();"
+            }
+        ]
+    }
+}

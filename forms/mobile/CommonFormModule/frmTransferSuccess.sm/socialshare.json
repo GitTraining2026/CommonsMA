@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s71b27b9db37468aa8859bd5104081f1",
+    "_width_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {},
+    "id": "socialshare",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f068553d780d46d48c7f7bc87b11c47a",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "frmTransferSuccess",
+    "pf": "frmTransferSuccess",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "sourceUserWidget": "ua8b4d86dafb4b7e897e05d861ffdb26",
+    "wType": "UserWidgetInstance"
+}

@@ -1,0 +1,22 @@
+{
+    "AS_FlexContainer_g482d6beeaa34da28696ace775a3ca4e": {
+        "id": "AS_FlexContainer_g482d6beeaa34da28696ace775a3ca4e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "userwidgets",
+            "KUID": "u8a6ec125b5849f1b101cb5192deae35"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a8287be4a8cd4164b35dea7222a2e28b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//this.closeHamburgerMenu();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

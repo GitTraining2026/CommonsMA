@@ -1,0 +1,58 @@
+{
+    "models": {
+        "desktop": {
+            "1366": {
+                "class": "GraphLinksModel",
+                "linkDataArray": [],
+                "nodeDataArray": [
+                    {
+                        "formKUID": "d84cf68795bd4ee89e250856153362ae",
+                        "formName": "Form1",
+                        "isStartupForm": true,
+                        "key": "d84cf68795bd4ee89e250856153362ae",
+                        "loc": "8 24.7544921875",
+                        "thumbnailURL": null
+                    }
+                ]
+            }
+        },
+        "mobile": {
+            "class": "GraphLinksModel",
+            "linkDataArray": [],
+            "nodeDataArray": [
+                {
+                    "formKUID": "f87d28cee9854451af79b7143bca7f53",
+                    "formName": "frmStyleGuide",
+                    "isStartupForm": false,
+                    "key": "f87d28cee9854451af79b7143bca7f53",
+                    "loc": "8 24.7544921875",
+                    "thumbnailURL": "/assets/ResourcesMA/forms/mobile/AppGroup/frmStyleGuide.sm/.thumbs/default.jpeg"
+                },
+                {
+                    "formKUID": "h0b27cd5573d4e57b857ddd32a90811c",
+                    "formName": "frmTemplates",
+                    "isStartupForm": false,
+                    "key": "h0b27cd5573d4e57b857ddd32a90811c",
+                    "loc": "8 624.7544921875",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "a5fa55f9fcc54cfda77c7c70ac19a283",
+                    "formName": "frmTransferSuccess",
+                    "isStartupForm": false,
+                    "key": "a5fa55f9fcc54cfda77c7c70ac19a283",
+                    "loc": "188 199.508984375",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "d71dd090baca4ed0806da80aaf20ef62",
+                    "formName": "frmMFAValidation",
+                    "isStartupForm": false,
+                    "key": "d71dd090baca4ed0806da80aaf20ef62",
+                    "loc": "8 1224.7544921875",
+                    "thumbnailURL": null
+                }
+            ]
+        }
+    }
+}

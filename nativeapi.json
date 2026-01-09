@@ -1,0 +1,83 @@
+{
+    "NativeFunctionAPI": {
+        "iOS": {
+            "14.0": {
+                "KonympSocialShare-iOS-14.0": {
+                    "title": "KonympSocialShare",
+                    "platform": "iOS",
+                    "os": "14.0",
+                    "isDefault": false,
+                    "filename": "KonympSocialShare-iOS-14.0.zip",
+                    "nfiversion": "3.0",
+                    "enable": true
+                },
+                "UIKit-iOS-14.0": {
+                    "title": "UIKit",
+                    "platform": "iOS",
+                    "os": "14.0",
+                    "isDefault": false,
+                    "filename": "UIKit-iOS-14.0.zip",
+                    "nfiversion": "3.0",
+                    "enable": true
+                },
+                "Lottie-iOS-14.0": {
+                    "title": "Lottie",
+                    "platform": "iOS",
+                    "os": "14.0",
+                    "isDefault": false,
+                    "filename": "Lottie-iOS-14.0.zip",
+                    "nfiversion": "3.0",
+                    "enable": true
+                }
+            },
+            "17.0": {
+                "KonyBarcodeDetector-iOS-17.0": {
+                    "title": "KonyBarcodeDetector",
+                    "platform": "iOS",
+                    "os": "17.0",
+                    "isDefault": false,
+                    "filename": "KonyBarcodeDetector-iOS-17.0.zip",
+                    "nfiversion": "3.0",
+                    "enable": true
+                }
+            }
+        },
+        "Android": {
+            "4.0": {
+                "konympsocialshare-Android-4.0": {
+                    "title": "konympsocialshare",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "isDefault": false,
+                    "filename": "konympsocialshare-Android-4.0.zip",
+                    "enable": true
+                }
+            },
+            "1.0": {
+                "LottieAnimator-Android-1.0": {
+                    "title": "LottieAnimator",
+                    "platform": "Android",
+                    "os": "1.0",
+                    "isDefault": false,
+                    "filename": "LottieAnimator-Android-1.0.zip",
+                    "enable": true
+                }
+            },
+            "7.1": {
+                "barcodeqrscanner-Android-7.1": {
+                    "title": "barcodeqrscanner",
+                    "platform": "Android",
+                    "os": "7.1",
+                    "isDefault": false,
+                    "filename": "barcodeqrscanner.zip",
+                    "enable": true
+                }
+            }
+        }
+    },
+    "Metadata": {
+        "Version": {
+            "iOS": "3.0"
+        }
+    }
+}

@@ -1,0 +1,128 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s24c92fc23b14f5484b693ee9b8a9b35",
+    "_top_": {
+        "type": "string",
+        "value": "130dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "flxContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d08f082af05a450daee3fbaf77479fad",
+                "srcKUID": "a89d10d03d164ca596378e2275f4831c",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxKey": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c42fae972c7b4bd0b7ecf981e64e416c",
+                "srcKUID": "a1e80497c7ef4276bc9919bb5a614f55",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxValue": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a0a1d9602cb0499081796c6ba9539917",
+                "srcKUID": "e8e7f97235ac43268fd27e58321521c0",
+                "wType": "FlexContainer"
+            }
+        },
+        "keyValue": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "c2263c6cb03047baa433167a4cffc7d1",
+                "srcKUID": "a717a1935c9241f9a1ae2ce4200e1fcb",
+                "wType": "FlexContainer"
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "50%"
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "130dp"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "50%"
+                }
+            }
+        },
+        "lblKey": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "h3f7718b23ef408eb1a8f150598aa883",
+                "srcKUID": "c38b8affae5c4770890d34485f75409b",
+                "wType": "Label"
+            },
+            "i18n_text": "i18n.common.pendingDepositswithColon",
+            "responsiveData": {},
+            "text": ""
+        },
+        "lblValue": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g507942f98f94eed82f54180d5886d2a",
+                "srcKUID": "g4f2b8a9448e420da2a5166927543d27",
+                "wType": "Label"
+            },
+            "text": "+$100.00"
+        }
+    },
+    "id": "keyValuePendingDeposits",
+    "info": null,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "c2263c6cb03047baa433167a4cffc7d1",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxCheckingAccountSummary",
+    "pf": "frmPrintTransaction",
+    "snaptogrid": true,
+    "sourceUserWidget": "a717a1935c9241f9a1ae2ce4200e1fcb",
+    "wType": "UserWidgetInstance"
+}

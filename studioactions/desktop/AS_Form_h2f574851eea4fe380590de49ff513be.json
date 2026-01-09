@@ -1,0 +1,24 @@
+{
+    "AS_Form_h2f574851eea4fe380590de49ff513be": {
+        "id": "AS_Form_h2f574851eea4fe380590de49ff513be",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMultiFactorAuthentication",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d4e669fca40c45799f8b308d19049a1f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e80ed247af2445718a667468eabd26dc",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.print(\"on device back\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

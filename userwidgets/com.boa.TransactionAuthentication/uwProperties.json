@@ -1,0 +1,129 @@
+{
+    "classname": "TransactionAuthentication",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "d37daa5d34bd48b480308d74ab9e8e86",
+                    "paramList": [],
+                    "propertyKey": "setReviewScreenData",
+                    "pw": {
+                        "displayName": "setReviewScreenData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "c843af7938a14296afc353b8ab2fb66e",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "c4d77e56e14b490a8958e1c082e2149b",
+                    "paramList": [],
+                    "propertyKey": "initiateAuthenticationFlow",
+                    "pw": {
+                        "displayName": "initiateAuthenticationFlow",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "c843af7938a14296afc353b8ab2fb66e",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "Continue",
+                    "group": "General",
+                    "kuid": "cbabe1411c2b4000b07791cfad15317d",
+                    "originalPropertyKey": "buttonText",
+                    "orignalPropertyType": "custom",
+                    "propertyIndex": 1,
+                    "propertyKey": "buttonText",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Continue Button Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "c843af7938a14296afc353b8ab2fb66e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Review",
+                    "group": "General",
+                    "kuid": "hd78923465e144798722cd8ba3031088",
+                    "originalPropertyKey": "headerText",
+                    "orignalPropertyType": "custom",
+                    "propertyIndex": 2,
+                    "propertyKey": "headerText",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Header Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "c843af7938a14296afc353b8ab2fb66e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Enter your PIN to authorize the transaction",
+                    "group": "General",
+                    "kuid": "d546ff81d2f2404788e5c07e7beb5bad",
+                    "originalPropertyKey": "pinPrompt",
+                    "orignalPropertyType": "custom",
+                    "propertyIndex": 3,
+                    "propertyKey": "pinPrompt",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Pin Prompt Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "c843af7938a14296afc353b8ab2fb66e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "d7fc5beb69a043d7b1077979b999d1f9",
+                    "originalPropertyKey": "authenticationInitiator",
+                    "orignalPropertyType": "custom",
+                    "propertyIndex": 4,
+                    "propertyKey": "authenticationInitiator",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Authentication Handler",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "c843af7938a14296afc353b8ab2fb66e",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.boa",
+    "version": "1.0.0"
+}

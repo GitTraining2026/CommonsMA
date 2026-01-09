@@ -1,0 +1,26 @@
+{
+    "AS_Browser_f5e002d3e9db41419cf2868a935d8047": {
+        "id": "AS_Browser_f5e002d3e9db41419cf2868a935d8047",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "params"
+        }],
+        "contextObj": {
+            "name": "frmTransferSuccess",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a5fa55f9fcc54cfda77c7c70ac19a283"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_bf29b45dd5d44bb4a691f21858a80931",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "self.view.brwQRCode.setVisibility(true);",
+            "parentId": null
+        }]
+    }
+}

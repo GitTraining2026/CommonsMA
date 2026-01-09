@@ -1,0 +1,61 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "-25dp"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s96fde78099142b4b618d595d3685a4c",
+    "_text_": "Send",
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "88%"
+    },
+    "activeNativeBorderCornerRadiusControl": "centerControl",
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s96fde78099142b4b618d595d3685a4c",
+    "id": "btnSend",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f32c2940f0bb46299124e36ee8f7b68e",
+    "name": "kony.ui.Button",
+    "parent": "flxReviewPopup",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "texti18n": "cs.apollo.Send",
+    "wType": "Button",
+    "zindex": 2
+}

@@ -1,0 +1,198 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "counter": "00",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segRecent",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none",
+            "showProgressIndicator": false
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c7bf6a91bbf44602bf6185398c3d25e0",
+    "masterdata": {},
+    "mobile": {
+        "_data_": [
+            {
+                "imgArrow": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "apollorightarrow.png"
+                },
+                "imgBeneficiaryLogo": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "apolloboaroundlogo.png"
+                },
+                "imgBookmark": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "apollobookmark.png"
+                },
+                "lblAccount": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "1011223344"
+                },
+                "lblBankID": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData"
+                },
+                "lblBankName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData"
+                },
+                "lblBicCode": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData"
+                },
+                "lblMode": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData"
+                },
+                "lblName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Weekly"
+                },
+                "lblTransactionID": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData"
+                },
+                "lblType": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData"
+                }
+            }
+        ],
+        "rowTemplateId": "e1639e5d51a84d348be205935f7a8621",
+        "rowtemplate": "flxRecentBeneficiaries",
+        "widgetdatamap": {
+            "flxBookmark": "flxBookmark",
+            "flxDelete": "flxDelete",
+            "flxHiddenData": "flxHiddenData",
+            "flxLabels": "flxLabels",
+            "flxLogo": "flxLogo",
+            "flxMainContainer": "flxMainContainer",
+            "flxParentContainer": "flxParentContainer",
+            "flxRecentBeneficiaries": "flxRecentBeneficiaries",
+            "flxRightArrow": "flxRightArrow",
+            "flxSeparator": "flxSeparator",
+            "flxSwipeContainer": "flxSwipeContainer",
+            "imgArrow": "imgArrow",
+            "imgBeneficiaryLogo": "imgBeneficiaryLogo",
+            "imgBookmark": "imgBookmark",
+            "lblAccount": "lblAccount",
+            "lblBankID": "lblBankID",
+            "lblBankName": "lblBankName",
+            "lblBicCode": "lblBicCode",
+            "lblMode": "lblMode",
+            "lblName": "lblName",
+            "lblTransactionID": "lblTransactionID",
+            "lblType": "lblType"
+        }
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxRecentSegmentContainer",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowcounter": 0,
+    "rowfocusskin": "sb90f354994144fe8b9e0727b79cffa1",
+    "rowskin": "s6cf470303f843f1ad707e12c15d10b4",
+    "rowtemplate": null,
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "sf547a20bb09490dbf3013166e3e0531",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "ffffff00",
+    "separatorrequired": true,
+    "separatorthickness": 7,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "CopyflxRightArrow0bbba28345f4f49": "CopyflxRightArrow0bbba28345f4f49",
+        "CopyimgDelete0j199221e070840": "CopyimgDelete0j199221e070840",
+        "flxBookmark": "flxBookmark",
+        "flxHiddenData": "flxHiddenData",
+        "flxLabels": "flxLabels",
+        "flxRecentBeneficiaries": "flxRecentBeneficiaries",
+        "flxRightArrow": "flxRightArrow",
+        "flxSeparator": "flxSeparator",
+        "imgArrow": "imgArrow",
+        "imgBeneficiaryLogo": "imgBeneficiaryLogo",
+        "imgRemove": "imgRemove",
+        "lblAccount": "lblAccount",
+        "lblBankID": "lblBankID",
+        "lblBankName": "lblBankName",
+        "lblBicCode": "lblBicCode",
+        "lblName": "lblName",
+        "lblType": "lblType"
+    }
+}

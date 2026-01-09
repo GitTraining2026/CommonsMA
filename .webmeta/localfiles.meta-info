@@ -1,0 +1,67 @@
+{
+    "HEAD": "wa7a69c025604dd98d42786ee3e5782d",
+    "w33f270830a8499db081212569f1bd4b": {
+        "extension": "html",
+        "kuid": "w33f270830a8499db081212569f1bd4b",
+        "name": "setQRCodeProperties.html",
+        "parent": "w6035dbe1bf142f6a019c489174c57a9",
+        "type": "F"
+    },
+    "w3a2dc007cb24be391ca0a6abf734f2d": {
+        "extension": "js",
+        "kuid": "w3a2dc007cb24be391ca0a6abf734f2d",
+        "name": "qrcode.js",
+        "parent": "w6035dbe1bf142f6a019c489174c57a9",
+        "type": "F"
+    },
+    "w4ab516ac1354533a7d481667d4dc05b": {
+        "extension": "html",
+        "kuid": "w4ab516ac1354533a7d481667d4dc05b",
+        "name": "qrenc3.html",
+        "parent": "wa7a69c025604dd98d42786ee3e5782d",
+        "type": "F"
+    },
+    "w6035dbe1bf142f6a019c489174c57a9": {
+        "children": [
+            "wd471e0954744423a685e3c8fd142804",
+            "w9cb748364a741f9b53e86a16f9e757a",
+            "w3a2dc007cb24be391ca0a6abf734f2d",
+            "w33f270830a8499db081212569f1bd4b"
+        ],
+        "kuid": "w6035dbe1bf142f6a019c489174c57a9",
+        "name": "QRCodeGenerator",
+        "parent": "wa7a69c025604dd98d42786ee3e5782d",
+        "type": "D"
+    },
+    "w932424218d64ea68ffd599a48170af1": {
+        "extension": "html",
+        "kuid": "w932424218d64ea68ffd599a48170af1",
+        "name": "richtextViewer.html",
+        "parent": "wa7a69c025604dd98d42786ee3e5782d",
+        "type": "F"
+    },
+    "w9cb748364a741f9b53e86a16f9e757a": {
+        "extension": "js",
+        "kuid": "w9cb748364a741f9b53e86a16f9e757a",
+        "name": "jquery.min.js",
+        "parent": "w6035dbe1bf142f6a019c489174c57a9",
+        "type": "F"
+    },
+    "wa7a69c025604dd98d42786ee3e5782d": {
+        "children": [
+            "w6035dbe1bf142f6a019c489174c57a9",
+            "w932424218d64ea68ffd599a48170af1",
+            "w4ab516ac1354533a7d481667d4dc05b"
+        ],
+        "kuid": "wa7a69c025604dd98d42786ee3e5782d",
+        "name": "localfiles",
+        "type": "L"
+    },
+    "wd471e0954744423a685e3c8fd142804": {
+        "extension": "html",
+        "kuid": "wd471e0954744423a685e3c8fd142804",
+        "name": "index.html",
+        "parent": "w6035dbe1bf142f6a019c489174c57a9",
+        "type": "F"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "Forms": {
+        "mobile": {
+            "frmMFAValidation": {
+                "Controller": "MFAModule/frmMFAValidationController",
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "MFAModule/frmMFAValidation"
+            }
+        }
+    },
+    "ModuleName": "MFAModule",
+    "ModuleType": "UIModule",
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationControllerClass": "MFAModule/PresentationControllers/PresentationController",
+            "PresentationExtensions": []
+        }
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "-10dp"
+    },
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "6%"
+    },
+    "_skin_": "s5f4abc3937e43f1b9825e780eb14e23",
+    "_text_": "Use PIN",
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s5f4abc3937e43f1b9825e780eb14e23",
+    "id": "btnPIN",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "f653dd591ecc4c0eab7ae19fbe1b3aba",
+    "name": "kony.ui.Button",
+    "parent": "flxReviewPopup",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "texti18n": "cs.apollo.UsePIN",
+    "wType": "Button"
+}

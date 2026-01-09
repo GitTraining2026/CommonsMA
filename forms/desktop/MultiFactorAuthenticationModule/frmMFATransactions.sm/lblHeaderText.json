@@ -1,0 +1,80 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        2,
+        0
+    ],
+    "_skin_": "s575c3b3144e40cf911f587474d3ad72",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_wrapping_": 2,
+    "accessibilityconfig": {
+        "a11yLabel": "Lets authenticate!"
+    },
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "lblHeaderText",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isvisible": true,
+    "kuid": "c18d367f466a4b88b839e06276aea35d",
+    "name": "kony.ui.Label",
+    "paddinginpixel": false,
+    "parent": "flxLetsAuthenticateModule",
+    "pf": "frmMFATransactions",
+    "responsiveData": {
+        "b1": {},
+        "b2": {},
+        "b3": {
+            "left": {
+                "type": "string",
+                "value": "15dp"
+            },
+            "skin": "s962c52e36b64a828288abfc542c8d47"
+        }
+    },
+    "texti18n": "i18n.mfa.recievingAccessCode",
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 1
+}

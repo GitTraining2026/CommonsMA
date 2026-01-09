@@ -1,0 +1,30 @@
+{
+    "AS_Form_dccf5a07e82b4b41bc2010a08fb4230f": {
+        "id": "AS_Form_dccf5a07e82b4b41bc2010a08fb4230f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmMultiFactorAuthentication",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d4e669fca40c45799f8b308d19049a1f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c75a74d8e8fb4da699e496882d844878",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "hidePopups();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

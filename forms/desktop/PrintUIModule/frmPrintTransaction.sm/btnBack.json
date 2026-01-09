@@ -1,0 +1,60 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "6.07%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s21cd11a212e42e693216fd3a82ed65a",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "accessibilityconfig": {
+        "a11yLabel": "< Back",
+        "a11yLabeli18n": "i18n.common.back"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "desktopweb": {
+        "psp": {}
+    },
+    "disabledSkins": {
+        "hoverSkin": "s555b900bf284bfd8b07919c625ba51c"
+    },
+    "displaytext": true,
+    "focusskin": "sf44d06ca8224832827ea7fdff757013",
+    "id": "btnBack",
+    "info": null,
+    "isvisible": false,
+    "kuid": "dd2b9487fa444c3186d6005b9c5c471a",
+    "name": "kony.ui.Button",
+    "parent": "flxprintTransactions",
+    "pf": "frmPrintTransaction",
+    "texti18n": "i18n.common.back",
+    "tooltip": "Back",
+    "wType": "Button",
+    "zindex": 3
+}

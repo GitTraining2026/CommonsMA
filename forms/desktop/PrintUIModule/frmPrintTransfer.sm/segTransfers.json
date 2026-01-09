@@ -1,0 +1,99 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "15",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": true,
+    "id": "segTransfers",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "isvisible": true,
+    "kuid": "cedbb843a8f548d691f97a621e613493",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxTransfers",
+    "pf": "frmPrintTransfer",
+    "retainselection": false,
+    "rowTemplateId": "d280e0f47f7e4b789ec55622900fa0ce",
+    "rowcounter": 5,
+    "rowfocusskin": "s9f69e977910472eb44c62ae28c41fe1",
+    "rowskin": "scf5f90f6ac04976ab88b2a4f7153285",
+    "rowtemplate": "flxPrintTransfer",
+    "screenlevelwidget": false,
+    "seccounter": 1,
+    "sectionHeaderTemplateId": "bd4fb8877ce94460abb55e03d177e9e8",
+    "sectionheaderskin": "sdc4ff4ed1584272be2ae69045dfb29d",
+    "sectionheadertemplate": "flxPrintTransferHeader",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxPrintTransfer": "flxPrintTransfer",
+        "flxPrintTransferHeader": "flxPrintTransferHeader",
+        "lblHeader": "lblHeader",
+        "lblKey": "lblKey",
+        "lblValue": "lblValue"
+    },
+    "zindex": 1
+}

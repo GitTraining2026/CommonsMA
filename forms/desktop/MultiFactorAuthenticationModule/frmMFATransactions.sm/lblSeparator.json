@@ -1,0 +1,104 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "1dp"
+    },
+    "_left_": {
+        "type": "number",
+        "value": "20"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        2,
+        0
+    ],
+    "_skin_": "s09349f2265649b3ae4b14f3130733b2",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "1160dp"
+    },
+    "_wrapping_": 2,
+    "accessibilityconfig": {
+        "a11yARIA": {
+            "tabindex": -1
+        },
+        "a11yHidden": true,
+        "a11yLabel": "Lets authenticate!"
+    },
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "lblSeparator",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isvisible": true,
+    "kuid": "jec9a321685344bcbab6632f7962c729",
+    "name": "kony.ui.Label",
+    "paddinginpixel": false,
+    "parent": "flxLetsAuthenticateModule",
+    "pf": "frmMFATransactions",
+    "responsiveData": {
+        "b1": {
+            "width": {
+                "type": "string",
+                "value": "96.70%"
+            }
+        },
+        "b2": {
+            "centerX": {
+                "type": "string",
+                "value": ""
+            },
+            "width": {
+                "type": "string",
+                "value": "96%"
+            }
+        },
+        "b3": {
+            "left": {
+                "type": "number",
+                "value": "15"
+            },
+            "width": {
+                "type": "string",
+                "value": "96%"
+            }
+        }
+    },
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 1
+}
