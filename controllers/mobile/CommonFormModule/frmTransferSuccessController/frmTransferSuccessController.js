@@ -21,7 +21,7 @@ define({
         moduleName: "MoneyMovementUIModule",
         appName: "TransfersMA",
       });
-    // yonas change
+    // yonas change 11
 
     paymentMod = kony.mvc.MDAApplication.getSharedInstance()
       .getModuleManager()
