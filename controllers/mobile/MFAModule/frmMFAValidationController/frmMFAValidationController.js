@@ -14,7 +14,7 @@ define(["CommonUtilities"], function (CommonUtilities) {
         );
     },
     mfaDeviceBack: function () {
-      var scope = this;
+      var self = this;
       var navManager = applicationManager.getNavigationManager();
       navManager.goBack();
     },
