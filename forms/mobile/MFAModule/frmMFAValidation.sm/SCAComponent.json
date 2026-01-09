@@ -3,7 +3,7 @@
     "DNDConfig": null,
     "_children_": [],
     "_height_": {
-        "type": "string",
+        "type": "int",
         "value": "100%"
     },
     "_left_": {
