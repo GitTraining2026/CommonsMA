@@ -21,6 +21,8 @@ define({
         moduleName: "MoneyMovementUIModule",
         appName: "TransfersMA",
       });
+    // yonas change
+
     paymentMod = kony.mvc.MDAApplication.getSharedInstance()
       .getModuleManager()
       .getModule({ moduleName: "BillPaymentUIModule", appName: "BillPayMA" });
@@ -46,7 +48,7 @@ define({
   // [Trixon] Action assignment for form widgets
   initActions: function () {
     var controller = this;
-    self.view.onDeviceBack = function () {};
+    self.view.onDeviceBack = function () { };
     controller.view.flxSave.onClick = function () {
       controller.shareReceipt(true);
     };
@@ -161,8 +163,8 @@ define({
       } else {
         var receiverValue =
           successData.requestPayload.transactionType === "Telebirr" ||
-          successData.requestPayload.transactionType === "ATM Withdrawal" ||
-          successData.requestPayload.transactionType === "MPesa"
+            successData.requestPayload.transactionType === "ATM Withdrawal" ||
+            successData.requestPayload.transactionType === "MPesa"
             ? "+251" + successData.requestPayload.receiverAccount
             : successData.requestPayload.receiverAccount;
         if (
@@ -235,14 +237,14 @@ define({
           : successData.requestPayload.paymentType === "EthioTelTopup" ||
             successData.requestPayload.paymentType === "SafaricomTopup" ||
             successData.requestPayload.paymentType === "EthioTelPackage"
-          ? kony.i18n.getLocalizedString("cs.apollo.NewTopup")
-          : kony.i18n.getLocalizedString("cs.apollo.NewPayment");
+            ? kony.i18n.getLocalizedString("cs.apollo.NewTopup")
+            : kony.i18n.getLocalizedString("cs.apollo.NewPayment");
       let transactionDate = formatUtil.formatDateForDisplay(
         successData.httpresponse.headers.Date
       );
       refID =
         successData.requestPayload.paymentType === "US Visa" ||
-        successData.requestPayload.paymentType === "Seregela"
+          successData.requestPayload.paymentType === "Seregela"
           ? successData.header.id
           : successData.referenceId;
       let formattedAmount =
@@ -270,18 +272,18 @@ define({
             var receiverAccountName =
               successData.requestPayload.paymentType === "Within BOA"
                 ? successData.requestPayload.editScheduledPayment
-                    .beneficiaryName
+                  .beneficiaryName
                 : successData.requestPayload.paymentSubtype === "RTGS"
-                ? successData.requestPayload.editScheduledPayment.recipientName
-                : successData.requestPayload.payeeDetails.body[0]
+                  ? successData.requestPayload.editScheduledPayment.recipientName
+                  : successData.requestPayload.payeeDetails.body[0]
                     .beneficiaryName;
           } else {
             var receiverAccountName =
               successData.requestPayload.paymentType === "Within BOA"
                 ? successData.requestPayload.receiverName
                 : successData.requestPayload.paymentSubtype === "RTGS"
-                ? successData.requestPayload.recipientName
-                : successData.requestPayload.payeeDetails.body[0]
+                  ? successData.requestPayload.recipientName
+                  : successData.requestPayload.payeeDetails.body[0]
                     .beneficiaryName;
           }
           segData.push(
@@ -292,7 +294,7 @@ define({
               lblValue:
                 successData.requestPayload.scheduleAction === "Edit"
                   ? successData.requestPayload.editScheduledPayment
-                      .toAccountNumber
+                    .toAccountNumber
                   : successData.requestPayload.receiverAccount,
             },
             {
@@ -375,11 +377,11 @@ define({
                 successData.requestPayload.paymentType === "EthioTelTopup"
                   ? kony.i18n.getLocalizedString("cs.apollo.Ethiotelecom")
                   : successData.requestPayload.paymentType === "EthioTelPackage"
-                  ? "Ethio Tel " +
+                    ? "Ethio Tel " +
                     successData.requestPayload.packageNameDisplay +
                     " " +
                     successData.requestPayload.packageIdDisplay
-                  : kony.i18n.getLocalizedString("cs.apollo.Safaricom"),
+                    : kony.i18n.getLocalizedString("cs.apollo.Safaricom"),
             }
           );
         } else if (
@@ -393,7 +395,7 @@ define({
               lblAttribute: successData.requestPayload.paymentMode,
               lblValue:
                 successData.requestPayload.paymentType === "Websprix" &&
-                successData.requestPayload.paymentMode ===
+                  successData.requestPayload.paymentMode ===
                   kony.i18n.getLocalizedString("cs.apollo.PhoneNumber")
                   ? "+251" + successData.requestPayload[billNo]
                   : successData.requestPayload[billNo],
@@ -411,8 +413,8 @@ define({
               lblValue:
                 successData.requestPayload.paymentType === "Postpaid"
                   ? kony.i18n.getLocalizedString(
-                      "cs.apollo.EthiotelecomPostpaid"
-                    )
+                    "cs.apollo.EthiotelecomPostpaid"
+                  )
                   : kony.i18n.getLocalizedString("cs.apollo.WebsprixPayment"),
             }
           );
@@ -720,16 +722,16 @@ define({
       self.view.brwQRCode.enableSoftwareRendering = true;
       self.view.brwQRCode.evaluateJavaScript(
         "doqr('" +
-          encryptedData.toString() +
-          "','" +
-          JSON.stringify({
-            width: "100",
-            height: "100",
-            colorDark: "#000000",
-            colorLight: "#ffffff",
-            correctLevel: "1",
-          }) +
-          "');"
+        encryptedData.toString() +
+        "','" +
+        JSON.stringify({
+          width: "100",
+          height: "100",
+          colorDark: "#000000",
+          colorLight: "#ffffff",
+          correctLevel: "1",
+        }) +
+        "');"
       );
     });
   },
