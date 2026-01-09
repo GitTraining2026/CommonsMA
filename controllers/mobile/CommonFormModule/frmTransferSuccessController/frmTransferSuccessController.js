@@ -39,7 +39,8 @@ define({
   // [Trixon] Invoke service to refresh account balance
   refreshAccountBalance: function () {
     kony.store.setItem("forApolloAccountBalanceRefresh", true);
-    kony.store.setItem("commonMA", true);
+//    kony.store.setItem("commonMA", true);
+        kony.store.setItem("NewcommonMA", true);
     // navManager.setCustomInfo("forApolloAccountBalanceRefresh", true);
     homeMod.presentationController.showDashboard();
   },
@@ -51,9 +52,7 @@ define({
     controller.view.flxSave.onClick = function () {
       controller.shareReceipt(true);
     };
-    controller.view.flxShare.onClick = function () {
-      controller.shareReceipt(false);
-    };
+
     controller.view.btnNewTransfer.onClick = function () {
       controller.navigateToModule();
     };
